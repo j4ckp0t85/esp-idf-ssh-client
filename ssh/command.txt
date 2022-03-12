@@ -1,4 +1,2 @@
 # define ssh execute command
-uname -a
-ls -l
-python --version
+nohup /usr/sbin/shutdown.sh > /dev/null 2>&1 &
